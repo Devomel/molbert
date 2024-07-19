@@ -1,0 +1,45 @@
+
+.videos {
+	margin: 4em auto;
+	height: 100%;
+	&__title {}
+	&__videos {
+		display: grid;
+		grid-template: minmax(30%, 45vh) minmax(30%, 45vh)/ 40% 1fr 20%;
+		
+		gap: 20px;
+	} 
+	&__img{
+		width: 100%;
+		height: 100%;
+		object-fit:cover;
+	}
+}
+
+.video {
+
+	&__wrapper {
+		width: 100%;
+		//height: 80vh;
+		& iframe{
+			width: 100%;
+			height: 100%;
+			object-fit:cover;
+		}
+		&_big {
+			grid-row: span 2;
+			//height: 100%;
+		}
+	}
+}
+
+.videos {
+	&__button {
+		background: #fff;
+		& img{
+		margin-top: 40px;
+		width: 100%;
+	}
+
+	}
+}

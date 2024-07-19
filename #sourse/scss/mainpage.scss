@@ -1,0 +1,64 @@
+.mainpage {
+	background: url('../img/Снимок экрана 2023-07-08 130750.jpg') 0 0 / cover no-repeat;
+	background-position: 50% 10%;
+	background-attachment: fixed;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	color: #fff;
+	padding: 30vh 0;
+
+	&__title {
+		
+		font-size: 3.5em;
+		margin-bottom: 17px;
+	}
+	&__subtitle {
+		font-size: 50px;
+		font-weight: 300;
+		margin-bottom: 40px;
+	}
+	&__slogan {
+		margin-bottom: 55px;
+	}
+	&__buttons {
+		display: flex;
+		justify-content: center;
+		& button{
+			width: 13em;
+			height: 3.5em;
+			transition-duration: 0.6s;
+		}
+	}
+	&__first-button {
+		margin-right: 40px;
+		border: 2px solid #fff;
+		background-color:rgba(0,0,0, 0.2);
+		& a{
+			color: #fff;
+		}
+	}
+	&__second-button {
+		& a{
+			color: rgba(101,131,105, 1);
+		}
+	}
+	&__first-button:hover {
+		border: 2px solid rgba(101,131,105, 1);
+		background-color:rgba(101,131,105, 1);
+		& a{
+			color: #fff;
+		}
+	}
+	&__second-button:hover {
+		
+		background:rgba(101,131,105, 1) ;
+		& a{
+			color: #fff;
+		}
+	}
+	&__wrapper {		
+		
+	}
+}

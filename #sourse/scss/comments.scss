@@ -1,0 +1,53 @@
+
+.comments {
+	background: #f6f6f6;
+	font-size: 1.3em;
+	text-align: center;
+	height: 100%;
+	padding-top: 5em;
+	&__title {
+		margin: 0 auto;
+		display: inline-block;
+		&::after{
+			content:'';
+			display: block;
+			height: 3px;
+			width: 3em;
+			background: #2214;
+			margin: 1em auto;
+		}
+	}
+	&__wrapper {
+		display: flex;
+		margin: 5em -15px;
+
+	}
+	&__comment {
+		flex: 1 1 33.333%;
+		margin: 0 15px;
+		background: #fff;
+		border-radius: 5px;
+		display: flex;
+		flex-direction : column;
+		margin-bottom: 10em;
+		padding: 40px;
+	}
+	
+	&__text {
+		&::before{
+			content:'';
+			background: url('../img/Снимок экрана 2023-07-10 153531.png') no-repeat;
+			height: 3em;
+			width: 2em;
+			display: block;
+			margin: 0 auto;
+		}
+		font-weight: normal;
+		line-height: 2em;
+		flex: 0 1 100%;
+		margin-bottom: 3em;
+		}
+	&__author {
+
+	}
+}
